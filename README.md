@@ -3,22 +3,22 @@
 
 
 ## 软件主要功能
-1）	实现登录注册功能
-2）	可选择并填写饮品的种类和摄入量，将记录添加到手机的记录页面中，也可以删除相应记录，添加后会修改数据并提示还需摄入的水分。
-3）	可根据用户填写的资料测试出每日所需饮水量，并能设置为新的目标
+1）	实现登录注册功能  
+2）	可选择并填写饮品的种类和摄入量，将记录添加到手机的记录页面中，也可以删除相应记录，添加后会修改数据并提示还需摄入的水分。  
+3）	可根据用户填写的资料测试出每日所需饮水量，并能设置为新的目标  
 
 ## 使用说明
-登录页面
-![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/login.png)
-注册页面
- ![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/resign.png)
-点击中间的加号，可添加今日所喝饮品，点击饮料会弹出输入框，可输入摄入量。
-![Imag](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/today.png)
-![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/today2.png)
-点击确认在中间的页面中会显示添加的饮料，右滑可删除记录。
-![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/record.png)
-在档案页面中可以设置个人信息，并测试每日所需摄水量，可以设置为目标
-![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/me.png)
+登录页面  
+![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/login.png)  
+注册页面  
+ ![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/resign.png)  
+点击中间的加号，可添加今日所喝饮品，点击饮料会弹出输入框，可输入摄入量。  
+![Imag](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/today.png)  
+![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/today2.png)  
+点击确认在中间的页面中会显示添加的饮料，右滑可删除记录。  
+![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/record.png)  
+在档案页面中可以设置个人信息，并测试每日所需摄水量，可以设置为目标  
+![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/me.png)  
 
 ## 软件的不足：
 1.	手机底部导航栏的问题，遇到弹窗会弹出并不能隐藏
