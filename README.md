@@ -13,8 +13,7 @@
 注册页面  
  ![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/resign.png)  
 点击中间的加号，可添加今日所喝饮品，点击饮料会弹出输入框，可输入摄入量。  
-![Imag](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/today.png)  
-![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/today2.png)  
+![Imag](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/today.png)![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/today2.png)  
 点击确认在中间的页面中会显示添加的饮料，右滑可删除记录。  
 ![Image](https://github.com/Quinnyuu/Watery/blob/master/app/src/main/res/productShow/record.png)  
 在档案页面中可以设置个人信息，并测试每日所需摄水量，可以设置为目标  
