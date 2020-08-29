@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_statue">
+        <item>久坐</item>
+        <item>偶尔运动</item>
+        <item>经常运动</item>
+    </string-array>
+
+    <string-array name="weather">
+        <item>炎热</item>
+        <item>适度</item>
+        <item>寒冷</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+</resources>

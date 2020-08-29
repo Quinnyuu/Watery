@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fillViewport="true">
+        <LinearLayout
+            android:id="@+id/input_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightblue"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/water_intake"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:digits="1234567890"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ml"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="150dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:text="@string/confirm"
+                android:textSize="22dp"
+                android:background="@drawable/measure_btn"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--<android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_bar"
+        android:background="@color/lightblue"
+        android:keyBackground="@color/white"
+        android:keyTextColor="@color/darkgray"
+        android:keyTextSize="20sp"
+        android:visibility="visible"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>-->
+</RelativeLayout>

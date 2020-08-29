@@ -1,0 +1,257 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.watery.user.UserFragment"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="档案"
+            android:textColor="@color/gray"
+            android:padding="20dp"
+            android:textSize="26sp"
+            android:background="@color/lightblue"/>
+
+        <LinearLayout
+            android:id="@+id/name_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="22sp"
+                android:textColor="@color/darkgray"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="22sp"
+                android:textColor="@color/darkgray"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/name_bar"
+            ></View>
+
+        <LinearLayout
+            android:id="@+id/sex_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/name_bar"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/sex_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sex"
+                android:textSize="22sp"
+                android:textColor="@color/darkgray"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+
+            <Spinner
+                android:id="@+id/sex_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/sex"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/sex_bar"
+            ></View>
+
+        <LinearLayout
+            android:id="@+id/weight_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sex_bar"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/weight_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight"
+                android:textSize="22sp"
+                android:textColor="@color/darkgray"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/darkgray"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:text="60"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/weight_bar"
+            ></View>
+
+        <LinearLayout
+            android:id="@+id/statue_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/weight_bar"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/statue_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/statue"
+                android:textSize="22sp"
+                android:textColor="@color/darkgray"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+
+            <Spinner
+                android:id="@+id/status_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/activity_statue"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/statue_bar"
+            ></View>
+
+        <LinearLayout
+            android:id="@+id/weather_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/statue_bar"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/weather_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weather"
+                android:textSize="22sp"
+                android:textColor="@color/darkgray"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+
+            <Spinner
+                android:id="@+id/weather_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/weather" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/weather_bar"
+            android:id="@+id/view"></View>
+
+        <TextView
+            android:id="@+id/alert_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weather_bar"
+            android:text="@string/tip"
+            android:textColor="@color/darkblue"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_below="@+id/alert_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="50sp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/measure_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/measure_btn"
+            android:text="@string/measure"
+            android:textColor="@color/darkblue"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_below="@+id/result"/>
+
+        <Button
+            android:id="@+id/aim_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/measure_btn"
+            android:text="@string/aim"
+            android:textColor="@color/darkblue"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_below="@+id/measure_btn"/>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

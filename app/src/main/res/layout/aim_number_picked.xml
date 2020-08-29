@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/aim_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="请选择您的目标："
+        android:layout_gravity="left"
+        android:textColor="@color/darkblue"
+        android:textSize="22sp"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:id="@+id/dialog_content"
+        android:gravity="center">
+
+        <com.example.watery.utils.MyNumberPicked
+            android:id="@+id/aim_number"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ml"
+            android:layout_gravity="center"
+            android:textColor="@color/darkblue"
+            android:textSize="28sp"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/aim_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:layout_gravity="center"
+            android:textColor="@color/darkblue"
+            android:textSize="22sp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/aim_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@color/darkblue"
+            android:layout_marginLeft="160dp"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
